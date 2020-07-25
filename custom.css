@@ -1,15 +1,27 @@
 header {
   display: block;
+  width: 100%
 }
 
 .container {
   position: fixed;
   top: 0;
-
+  width: 100%;
   background-color: #005bac;
-
-  z-index: 1000;
   height: 88px;
+}
+
+.hwrap {
+  margin: 0 50px;
+}
+
+.header-list {
+  display: block;
+}
+
+img {
+  width: 64px;
+  height: 64px;
 }
 
 .header-logo {
@@ -19,17 +31,11 @@ header {
   z-index: 100;
 }
 
-img {
-  width: 64px;
-  height: 64px;
-}
-
 ul {
   overflow: hidden;
   width: 1100px;
   margin: auto;
   list-style: none;
-  color: white;
 }
 
 li {
@@ -39,6 +45,11 @@ li {
   z-index: 1;
   margin: 38px 17px 22px;
   transform: translate(65px,0);
+  font-size: 14px;
+  display: block;
+  color: #fff;
+
+  padding-bottom: 12px;
 }
 
 .contents {
@@ -47,8 +58,4 @@ li {
   height: 800px;
   padding: 0px;
   margin: 0px;
-}
-
-.hwrap {
-  margin: 0 50px;
 }
